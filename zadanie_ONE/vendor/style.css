@@ -1,0 +1,381 @@
+@font-face {
+    font-family: "Roboto";
+    src: url("../font/Roboto/Roboto-Regular.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    font-family: "Roboto";
+}
+
+.content {
+    flex: 1 0 auto;
+    padding-left: 12%;
+    padding-right: 12%;
+}
+
+
+h1 {
+    text-align: center;
+    color: #009fb1;
+    padding-top: 1%;
+}
+
+h2 {
+    text-align: center;
+    color: #00005c;
+    padding-top: 2rem;
+    padding-bottom: 0.5rem;
+}
+
+h3 {
+    text-align: left;
+    color: wheat;
+    margin-bottom: 0.5rem;
+}
+
+h4 {
+    color: wheat;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+h5 {
+    color: #1c00a8;
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+span {
+    color: #1c00a8;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0.5rem 2rem;
+}
+
+nav ul li a {
+    color: #1c00a8;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+nav ul li a:hover {
+    color: #009fb1;
+}
+
+.first {
+    float: left;
+    height: 70%;
+    width: 22%;
+    object-fit: contain;
+    margin-right: 3%;
+}
+
+article {
+    text-align: center;
+    padding-top: 2%;
+    margin: auto;
+    font-size: 1.3rem;
+
+}
+
+article p {
+    text-align: justify;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+aside {
+    float: right;
+    font-size: 1.3em;
+    font-weight: bold;
+    width: 30%;
+    text-align: left;
+    margin-left: 5%;
+    margin-bottom: 2%;
+    color: #00005c;
+    text-shadow: 10px 8px 8px wheat;
+}
+
+.list li {
+    text-align: left;
+    list-style-position: inside;
+    margin-top: 0.5rem;
+}
+
+footer {
+    position: relative;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #00005c;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 1em;
+    margin-top: 2em;
+}
+
+
+.cv {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+
+}
+
+
+.second {
+    height: 70%;
+    width: 50%;
+    object-fit: contain;
+    padding-top: 3%;
+    margin-left: 25%;
+
+}
+
+.left {
+    flex: 0 0 46%;
+    background-color: #009fb1;
+    border-radius: 0.3rem;
+    padding: 2%;
+    margin: 2%;
+    text-align: left;
+    color: white;
+}
+
+.left p {
+    margin-top: 1rem;
+}
+
+.left address p {
+    color: wheat;
+}
+
+.right {
+    flex: 0 0 46%;
+    background-color: #00005c;
+    border-radius: 0.3rem;
+    padding: 2%;
+    margin: 2%;
+    text-align: left;
+    color: white;
+}
+
+.contact {
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.education {
+    margin-top: 0.5rem;
+}
+
+.table-wrap {
+    overflow-x: auto;
+}
+
+table {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+table,
+th,
+td {
+    border: 4px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+
+}
+
+tr:nth-of-type(odd) {
+    background-color: rgb(148, 148, 148);
+}
+
+tr:nth-of-type(even) {
+    background-color: rgb(186, 186, 186);
+}
+
+.day-hour {
+    background-color: #009fb1;
+    color: white;
+}
+
+.day-hour th {
+    background-color: #009fb1;
+    color: white;
+}
+
+.day-hour span {
+    display: block;
+}
+
+.lecture {
+    background-color: #6fdb67;
+}
+
+.seminar {
+    background-color: #73d7ff;
+}
+
+.schedule-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.5rem;
+
+}
+
+.schedule-info .lecture {
+    background-color: #6fdb67;
+    min-width: 10%;
+    margin-top: 1rem;
+    padding: 1rem;
+
+}
+
+.schedule-info .seminar {
+    background-color: #73d7ff;
+    min-width: 10%;
+    margin-top: 1rem;
+    padding: 1rem;
+}
+
+.interactive-img {
+    text-align: center;
+    padding-top: 2rem;
+    position: relative;
+}
+
+.interactive-img>img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 30px;
+}
+
+.mark-position {
+    position: absolute;
+}
+
+.mark-lewa {
+    top: 41%;
+    left: 15%;
+}
+
+.mark-kessie {
+    top: 43%;
+    left: 31%;
+}
+
+.mark-christensen {
+    top: 40%;
+    left: 49%;
+}
+
+.mark-raphinha {
+    top: 44%;
+    left: 67%;
+}
+
+.mark-kounde {
+    top: 44%;
+    left: 81%;
+}
+
+.wrap {
+    position: absolute;
+    text-align: center;
+    background-color: wheat;
+    border: #00005c 4px solid;
+    border-radius: 15px;
+    width: 250px;
+    padding: 10px;
+    transform: translate(-50%, 0);
+    visibility: hidden;
+}
+
+.mark-position img:hover+.wrap {
+    cursor: pointer;
+    visibility: visible;
+}
+
+.source {
+    text-align: center;
+    margin-top: 0.5rem;
+}
+
+.source a {
+    color: gray;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 991px) {
+    nav ul li a {
+        font-size: 1rem;
+    }
+
+    table {
+        max-width: initial;
+    }
+
+    .mark-position img:hover+.wrap {
+        min-width: 80px;
+    }
+
+    .mark-kounde img:hover+.wrap {
+        transform: translate(-80%, 0);
+    }
+
+    .mark-lewa img:hover+.wrap {
+        transform: translate(-30%, 0);
+    }
+
+    .left {
+        flex: 0 0 96%;
+        height: 100%;
+    }
+
+    .right {
+        flex: 0 0 96%;
+    }
+
+}

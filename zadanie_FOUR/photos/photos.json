@@ -1,0 +1,122 @@
+[
+    {
+        "filename": "vt1",
+        "title": "Chata pod Soliskom - Tatry",
+        "description": "Chata pod vrchom Solisko, ktorý sa nachádza nad Štrbským plesom",
+        "date": "15.06.2021, 11:00",
+        "gps": {
+            "lat": "49.165731",
+            "lon": "20.145517"
+        },
+        "src": "vt1.jpg",
+        "id": 0
+    },
+    {
+        "filename": "vt2",
+        "title": "Štrbské pleso - Tatry",
+        "description": "Rekreačné stredisko Štrbské Pleso",
+        "date": "15.06.2021, 14:00",
+        "gps": {
+            "lat": "49.165731",
+            "lon": "20.145517"
+        },
+        "src": "vt2.jpg",
+        "id": 1
+    },
+    {
+        "filename": "vt3",
+        "title": "Kamzík vrchovský tatranský - Tatry",
+        "description": "Zachytený kamzík v jeho prirodzenom prostredí",
+        "date": "15.06.2021, 14:25",
+        "gps": {
+            "lat": "49.165731",
+            "lon": "20.145517"
+        },
+        "src": "vt3.jpg",
+        "id": 2
+    },
+    {
+        "filename": "intrak1",
+        "title": "Karate kid",
+        "description": "Karate kid intrák edition",
+        "date": "1.10.2022, 21:50",
+        "gps": {
+            "lat": "48.158765",
+            "lon": "17.064078"
+        },
+        "src": "intrak1.png",
+        "id": 3
+    },
+    {
+        "filename": "intrak2",
+        "title": "Intrákové dvere",
+        "description": "Naše motivačné dvere na intráku",
+        "date": "3.11.2022, 15:20",
+        "gps": {
+            "lat": "48.158765",
+            "lon": "17.064078"
+        },
+        "src": "intrak2.jpg",
+        "id": 4
+    },
+    {
+        "filename": "intrak3",
+        "title": "Vzdelávanie na intráku",
+        "description": "Tu sa vzdelávame na intráku v kuchyni",
+        "date": "10.11.2022, 13:30",
+        "gps": {
+            "lat": "48.158765",
+            "lon": "17.064078"
+        },
+        "src": "intrak3.jpg",
+        "id": 5
+    },
+    {
+        "filename": "trencin1",
+        "title": "Námestie - Trenčín",
+        "description": "Mierové námestie v meste Trenčíne",
+        "date": "10.11.2022, 13:30",
+        "gps": {
+            "lat": "48.894974",
+            "lon": "18.041824"
+        },
+        "src": "trencin1.jpg",
+        "id": 6
+    },
+    {
+        "filename": "trencin2",
+        "title": "Trenčiansky hrad",
+        "description": "Trenčiansky hrad, ktorý sa nachádza nad námestím v meste Trenčíne",
+        "date": "10.11.2022, 13:30",
+        "gps": {
+            "lat": "48.894974",
+            "lon": "18.041824"
+        },
+        "src": "trencin2.jpg",
+        "id": 7
+    },
+    {
+        "filename": "chata1",
+        "title": "Chata Trebichava",
+        "description": "Obľubená chata na RELAKS",
+        "date": "10.11.2022, 13:30",
+        "gps": {
+            "lat": "48.821291",
+            "lon": "18.290504"
+        },
+        "src": "chata1.jpg",
+        "id": 8
+    },
+    {
+        "filename": "chata2",
+        "title": "Strecha altánku - chata",
+        "description": "Ja na streche altánku",
+        "date": "10.11.2022, 13:30",
+        "gps": {
+            "lat": "48.821291",
+            "lon": "18.290504"
+        },
+        "src": "chata2.png",
+        "id": 9
+    }
+]

@@ -1,0 +1,199 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    min-height: 100vh;
+    width: 100%;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    flex: 1 0 auto;
+}
+
+.navbar {
+    background-color: #009fb1;
+}
+
+.navbar-brand {
+    color: white;
+}
+
+.collapse .navbar-collapse {
+    color: white;
+}
+
+.col {
+    margin-top: 60px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #009fb1;
+    margin-bottom: 40px;
+    margin-top: 80px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #009fb1;
+}
+
+h2 {
+    color: #009fb1;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1:before {
+    content: "Zadanie 4";
+    position: absolute;
+    left: 50%;
+    top: 5px;
+    transform: translate(-50%, -50%);
+    font-size: 3rem;
+    color: #b4c9d4;
+    z-index: -1;
+    width: 100%;
+    letter-spacing: 0.2rem;
+    white-space: nowrap;
+}
+
+@media (max-width: 386px) {
+    h1 {
+        font-size: 1.5rem;
+        color: #009fb1;
+        margin-bottom: 40px;
+        text-align: center;
+        position: relative;
+        z-index: 1;
+        text-transform: uppercase;
+        font-weight: 900;
+    }
+}
+
+@media (max-width: 386px) {
+    h1:before {
+        font-size: 1.5rem;
+        margin-top: -10px;
+        content: "Zadanie 4";
+        position: absolute;
+        left: 50%;
+        top: 5px;
+        transform: translate(-50%, -50%);
+        color: #b4c9d4;
+        z-index: -1;
+        width: 100%;
+        letter-spacing: 0.2rem;
+        white-space: nowrap;
+    }
+}
+
+footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    background-color: #009fb1;
+    text-align: center;
+    color: white;
+}
+
+input {
+    width: 60%;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 2px solid;
+    font-size: 1rem;
+}
+
+section {
+    min-height: 200px;
+}
+
+section img {
+    transition: 0.5s;
+    margin: 10px;
+}
+
+section img:hover {
+    transform: scale(1.1);
+}
+
+.backdropos {
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(10, 10, 10, 0.4);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+.modalos {
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    padding: 10px;
+
+}
+
+img {
+    max-width: 60vw;
+    max-height: 60vh;
+}
+
+.close {
+    display: flex;
+    border: none;
+    padding: 10px;
+    color: #009fb1;
+    width: 30px;
+
+}
+
+
+.carousel-caption h4 {
+    -webkit-text-fill-color: black;
+    -webkit-text-stroke-color: rgb(255, 29, 29);
+    -webkit-text-stroke-width: 1px;
+    margin-top: 25rem;
+}
+
+#carouselButtons {
+    margin-left: 100px;
+    position: absolute;
+    bottom: 0px;
+
+}
+
+.btn {
+    width: 20%;
+    margin: 10px;
+}
+
+.playos {
+    background-color: yellowgreen;
+}
+
+.pausos {
+    background-color: red;
+}
+
+.google-map {
+    width: 100%;
+    min-height: 80vh;
+}
