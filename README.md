@@ -4,4 +4,7 @@
 <h5>zadanie_TWO = website with a form and a modal for practicing javascript</h5>
 <h5>zadanie_THREE = website with charts, I chose the chart.js library. This assignment was to practice working with JSON and some js library</h5>
 <h5>zadanie_FOUR = website with photo gallery and google maps, I chose Carousel Bootstrap for slideshow.</h5>
+<h3>zadanie_TWO</h3>
 <a href="https://freeimage.host/sk"><img src="https://iili.io/HRmEr1j.png" alt="HRmEr1j.png" border="0"></a>
+<h3>zadanie_THREE</h3>
+<a href="https://freeimage.host/sk"><img src="https://iili.io/HRmWATN.png" alt="HRmWATN.png" border="0"></a>
